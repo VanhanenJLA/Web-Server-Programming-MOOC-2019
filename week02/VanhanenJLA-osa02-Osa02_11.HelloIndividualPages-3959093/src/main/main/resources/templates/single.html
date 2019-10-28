@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Single item page</title>
+    </head>
+    <body>
+        <a th:href="@{/{id}(id=${item.identifier})}" th:text="${item.name}">name</a> (<span th:text="${item.type}">type</span>)
+    </body>
+</html>
