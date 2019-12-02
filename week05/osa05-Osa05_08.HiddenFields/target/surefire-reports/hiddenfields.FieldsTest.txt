@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: hiddenfields.FieldsTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 14.103 s <<< FAILURE! - in hiddenfields.FieldsTest
+logoutSuccessful(hiddenfields.FieldsTest)  Time elapsed: 2.616 s  <<< FAILURE!
+java.lang.AssertionError
+	at hiddenfields.FieldsTest.logoutSuccessful(FieldsTest.java:76)
+
+postmanSeesForm(hiddenfields.FieldsTest)  Time elapsed: 0.469 s  <<< FAILURE!
+java.lang.AssertionError
+	at hiddenfields.FieldsTest.postmanSeesForm(FieldsTest.java:102)
+
+postmanCanSubmitForm(hiddenfields.FieldsTest)  Time elapsed: 0.504 s  <<< FAILURE!
+java.lang.AssertionError
+	at hiddenfields.FieldsTest.postmanCanSubmitForm(FieldsTest.java:109)
+
+authSuccessfulAsUser(hiddenfields.FieldsTest)  Time elapsed: 0.864 s  <<< FAILURE!
+java.lang.AssertionError
+	at hiddenfields.FieldsTest.authSuccessfulAsUser(FieldsTest.java:69)
+
